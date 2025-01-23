@@ -2,10 +2,10 @@ FROM nginx AS builder
 
 WORKDIR /app
 
-RUN apt updae 
+RUN apt update 
 
 RUN apt install mkdocs -y && \
-apt install mkdocs-material -y
+apt install mkdocs-bootstrap -y
 
 COPY . .
 
