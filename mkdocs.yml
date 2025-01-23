@@ -5,7 +5,7 @@ site_url: 'https://Donemmanuelo.github.io/mk-docs'  # Change this to your site's
 
 # Theme settings
 theme:
-  name: material
+  name: bootstrap
 
 # Navbar settings (site structure)
 nav:
