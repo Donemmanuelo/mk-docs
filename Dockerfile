@@ -1,4 +1,4 @@
-ROM nginx AS builder
+FROM nginx AS builder
 
 WORKDIR /app
 
