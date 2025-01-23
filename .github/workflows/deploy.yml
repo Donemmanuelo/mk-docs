@@ -1,4 +1,4 @@
-- name: automate build and deploy
+name: automate build and deploy
 on:
   push:
     branches:
