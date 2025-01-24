@@ -29,5 +29,5 @@ jobs:
             context: .
             push: true
             tags: |
-              ghcr.io/donemmanuelo/mk-docs:latest
-              ghcr.io/donemmanuelo/mk-docs:${{ github.run_number }}
+              ghcr.io/${{ vars.REPOS }}:latest
+              ghcr.io/${{ vars.REPOS }}:${{ github.run_number }}
